@@ -14,6 +14,9 @@
   line-height: 1.5;
   
 }
+.landpage p {
+  font-size: small;
+}
 
 .logo{
   height: 60px;
@@ -27,4 +30,9 @@
   margin-bottom: 1rem;
   padding-top: 3px;
 }
- 
+ .small{
+   height: 10px;
+   width: 15px;
+   border-radius: 25px;
+   border-radius: solid white;
+ }
