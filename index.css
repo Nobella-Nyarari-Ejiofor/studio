@@ -36,3 +36,16 @@
    border-radius: 25px;
    border-radius: solid white;
  }
+ .about{
+   text-align: center;
+   line-height: 2.1;
+ }
+ .services{
+   text-align: center;
+   height: 500px;
+   line-height: 2.3;
+   background-image: url(./images/background3.jpg);
+   background-repeat: no-repeat;
+   background-size: contain;
+   color: white;
+ }
