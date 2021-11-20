@@ -41,19 +41,33 @@
    line-height: 2.1;
  }
  .about h2{
- text-align: center;
- display: block
+  margin-left: 29rem;
+  padding-top: 1rem;
+  font-weight: 500;
+
  }
  .services{
+   height: 400px;
    text-align: center;
-   height: 500px;
    line-height: 2.3;
    background-image: url(./images/background3.jpg);
    background-repeat: no-repeat;
-   background-size: contain;
+   background-size: cover;
    color: white;
  }
+ .services p{
+   margin-left: 7rem;
+   font-weight: 400;
+  
+ }
  .services h2{
-   text-align: center;
+ margin-left: 29rem;
+ font-weight: 500;
+ margin-top: 5rem;
+
  }
- }
+.whatwedo{
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+} 
