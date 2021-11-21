@@ -70,4 +70,11 @@
   margin-top: 5rem;
   display: flex;
   justify-content: space-between;
+  margin-left: 10rem;
+  
+  
 } 
+.service{
+  font-weight: bolder;
+  /* padding-left: 10rem; */
+}
