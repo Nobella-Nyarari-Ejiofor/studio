@@ -116,7 +116,10 @@
   height: 300px;
   width: 800px;
 }
-#inlineFormInputName2{
+#email{
+  opacity: 0.5;
+}
+#name{
   opacity: 0.5;
 }
 .social img{
