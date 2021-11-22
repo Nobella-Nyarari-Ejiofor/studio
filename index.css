@@ -119,3 +119,11 @@
 #inlineFormInputName2{
   opacity: 0.5;
 }
+.social img{
+  height: 40px;
+}
+.social{
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
