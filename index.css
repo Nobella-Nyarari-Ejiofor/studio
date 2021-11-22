@@ -127,3 +127,13 @@
   display: flex;
   justify-content: space-around;
 }
+.img-1, .img-2, .img-3:hover{
+  cursor: pointer;
+  box-shadow: black;
+  /* position: relative; */
+  /* top: 0;
+  transition: top ease 0.5s; */
+}
+.p1, .p2, .p3:hover{
+  cursor: pointer;
+}
