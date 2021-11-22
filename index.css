@@ -81,14 +81,19 @@
 .portfolio{
   display: flex;
   justify-content: space-around;
+  margin-top: 5rem;
 }
 .portfolio img{
   height: 200px;
 }
-.row2{
+.portfolio2{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  margin-top: 1rem;
 }
-.row2 img{
+.portfolio2 img{
   height: 200px;
+}
+.contactme{
+  background-image: url(./images/background4.jpg);
 }
