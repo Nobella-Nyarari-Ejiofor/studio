@@ -39,3 +39,12 @@ function whatToDo3(){
    })){};
 };
 whatToDo3()
+
+$(document).ready(function(){
+   $(".imageeffect").mouseenter(function(){
+       $(this).css("opacity" , "0.3");
+   });
+   $(".imageeffect").mouseleave(function(){
+      $(this).css("pacity", "1.0");
+   });
+})
