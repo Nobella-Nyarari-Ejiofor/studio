@@ -124,11 +124,15 @@
 }
 .social img{
   height: 40px;
+ 
+  justify-content: center;
+  justify-content: space-around;
 }
 .social{
   padding-top: 2rem;
   display: flex;
-  justify-content: space-around;
+ 
+ 
 }
 .img-1, .img-2, .img-3:hover{
   cursor: pointer;
@@ -144,6 +148,14 @@ button{
   height: 50px;
   width: 200px;
   margin-left: 20rem;
-  color: black;
-  background-color: white;
+
+}
+.titleimage{
+  display: none;
+  background-color: transparent;
+  border: solid black;
+  width: 200px;
+  /* position: absolute;
+  top: -10px;
+  z-index: 2; */
 }
