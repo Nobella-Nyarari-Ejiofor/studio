@@ -94,6 +94,28 @@
 .portfolio2 img{
   height: 200px;
 }
-.contactme{
+.contact{
   background-image: url(./images/background4.jpg);
+  margin-top: 1rem;
+  display: block;
+  color: white;
+
+}
+.contact h2{
+  padding-left: 29rem;
+  font-weight: bold;
+  padding-bottom: 3rem;
+}
+.form-row{
+  display: flex;
+  justify-content: space-around;
+}
+#formGroupExampleInput{
+  opacity: 0.4;
+  text-align: start;
+  height: 300px;
+  width: 800px;
+}
+#inlineFormInputName2{
+  opacity: 0.5;
 }
