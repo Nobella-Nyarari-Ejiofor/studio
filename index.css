@@ -110,7 +110,7 @@
   display: flex;
   justify-content: space-around;
 }
-#formGroupExampleInput{
+#message{
   opacity: 0.4;
   text-align: start;
   height: 300px;
