@@ -111,16 +111,17 @@
   justify-content: space-around;
 }
 #message{
-  opacity: 0.4;
+  background: transparent;
   text-align: start;
   height: 300px;
   width: 800px;
 }
 #email{
-  opacity: 0.5;
+   background: transparent;
+  
 }
 #name{
-  opacity: 0.5;
+   background: transparent;
 }
 .social img{
   height: 40px;
@@ -153,9 +154,15 @@ button{
 .titleimage{
   display: none;
   background-color: transparent;
-  border: solid black;
+  /* border: solid black; */
   width: 200px;
-  /* position: absolute;
-  top: -10px;
-  z-index: 2; */
+  z-index: -2;
+  text-align: center;
+}
+.portfolio {
+  padding-left: 29px;
+}
+.portfolio{
+  font-weight: bold;
+  
 }

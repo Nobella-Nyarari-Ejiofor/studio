@@ -43,7 +43,7 @@ whatToDo3()
 $(document).ready(function(){
    $(".imageeffect").mouseenter(function(){
        $(".titleimage").show();
-       $(this).css("opacity" , "0.3");
+       $(this).css("opacity", "0.3");
 
    });
    $(".imageeffect").mouseleave(function(){
