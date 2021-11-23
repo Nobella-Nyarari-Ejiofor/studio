@@ -162,7 +162,11 @@ button{
 .portfolio {
   padding-left: 29px;
 }
-.portfolio{
+.portfolio p{
   font-weight: bold;
+  font-weight: bolder;
+  align-items: center;
+  font-size: xx-large;
+  padding-left: 25rem;
   
 }

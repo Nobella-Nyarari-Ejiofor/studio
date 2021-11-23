@@ -11,6 +11,10 @@ function whatToDo2(){
 }
 whatToDo2();
 
+
+
+
+
 function whatToDo1(){
   // Hiding the paragraph
   $('.p1').hide();
@@ -43,11 +47,11 @@ whatToDo3()
 $(document).ready(function(){
    $(".imageeffect").mouseenter(function(){
        $(".titleimage").show();
-       $(this).css("opacity", "0.3");
+       $(this).css("opacity" , "0.3");
 
    });
    $(".imageeffect").mouseleave(function(){
       $(this).css("opacity", "1.0");
-      $(".titleimage").hide();
+      $(".titleimage").hide()
    });
 })
