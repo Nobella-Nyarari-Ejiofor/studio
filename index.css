@@ -46,6 +46,7 @@
   font-weight: 500;
 
  }
+
  .services{
    height: 400px;
    text-align: center;
@@ -151,6 +152,9 @@ button{
   margin-left: 20rem;
 
 }
+.imageeffect{
+margin-left: 1rem;
+}
 .titleimage{
   display: none;
   background-color: transparent;
@@ -159,6 +163,8 @@ button{
   z-index: -2;
   text-align: center;
 }
+
+
 .portfolio {
   padding-left: 29px;
 }
