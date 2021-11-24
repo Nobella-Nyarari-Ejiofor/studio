@@ -46,7 +46,6 @@
   font-weight: 500;
 
  }
-
  .services{
    height: 400px;
    text-align: center;
@@ -83,10 +82,22 @@
   display: flex;
   justify-content: space-around;
   margin-top: 5rem;
+
+}
+.portfolio p{
+  font-weight: bold;
+  font-weight: bolder;
+  align-items: center;
+  font-size: xx-large;
+  padding-left: 25rem;
+  
 }
 .portfolio img{
   height: 200px;
+ margin-left: 1.5rem;
+ width: 250px;
 }
+
 .portfolio2{
   display: flex;
   justify-content: space-around;
@@ -94,12 +105,15 @@
 }
 .portfolio2 img{
   height: 200px;
+  /* margin-left: 1rem; */
+  width: 250px;
 }
 .contact{
   background-image: url(./images/background4.jpg);
   margin-top: 1rem;
   display: block;
   color: white;
+  margin-top: 1rem;
 
 }
 .contact h2{
@@ -123,6 +137,7 @@
 }
 #name{
    background: transparent;
+   opacity: 0.4;
 }
 .social img{
   height: 40px;
@@ -152,9 +167,6 @@ button{
   margin-left: 20rem;
 
 }
-.imageeffect{
-margin-left: 1rem;
-}
 .titleimage{
   display: none;
   background-color: transparent;
@@ -164,15 +176,3 @@ margin-left: 1rem;
   text-align: center;
 }
 
-
-.portfolio {
-  padding-left: 29px;
-}
-.portfolio p{
-  font-weight: bold;
-  font-weight: bolder;
-  align-items: center;
-  font-size: xx-large;
-  padding-left: 25rem;
-  
-}
