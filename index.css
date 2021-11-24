@@ -82,6 +82,7 @@
  margin-left: 29rem;
  font-weight: 500;
  margin-top: 8rem;
+ font-weight: bold;
 
  }
 .whatwedo{
@@ -144,20 +145,21 @@
   justify-content: space-around;
 }
 #message{
-  background: transparent;
+ opacity: 0.3;
   text-align: start;
   height: 300px;
   width: 800px;
   color: white;
 }
 #email{
-   background: transparent;
+  opacity: 0.3;
    color: white;
   
 }
 #name{
-   background: transparent;
+
    color: white;
+   opacity: 0.3;
    
 }
 
@@ -189,10 +191,10 @@ button{
 
 }
 input::placeholder {
-  color: white;
+ 
   font-weight: bold;
-  visibility: visible;
-  opacity: 4;
+
+
 }
 .titleimage{
   display: none;
@@ -207,3 +209,10 @@ input::placeholder {
 text-align: center;
 margin-top: 1rem;
 }
+@media (max-width:768px){
+  .serve{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
