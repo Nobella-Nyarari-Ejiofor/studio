@@ -33,7 +33,7 @@
   padding-top: 3px;
 }
 
-.dot{
+.fullstop{
  
   border-radius: 12px;
   width: 26px;
@@ -169,7 +169,7 @@
 }
 .social{
 margin-top: 1rem;
-margin-left: 8rem;
+margin-left: 13rem;
 
 }
 .img-1, .img-2, .img-3:hover{
