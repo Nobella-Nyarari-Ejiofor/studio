@@ -43,8 +43,12 @@
  .about h2{
   margin-left: 29rem;
   padding-top: 1rem;
-  font-weight: 500;
+  font-weight: bold;
 
+ }
+ .about p{
+   text-align: center ;
+   margin-left: 3rem;
  }
  .services{
    height: 400px;
@@ -54,6 +58,7 @@
    background-repeat: no-repeat;
    background-size: cover;
    color: white;
+   margin-top: 1rem;
  }
  .services p{
    margin-left: 7rem;
@@ -63,7 +68,7 @@
  .services h2{
  margin-left: 29rem;
  font-weight: 500;
- margin-top: 5rem;
+ margin-top: 8rem;
 
  }
 .whatwedo{
@@ -89,7 +94,7 @@
   font-weight: bolder;
   align-items: center;
   font-size: xx-large;
-  padding-left: 25rem;
+  padding-left: 27rem;
   
 }
 .portfolio img{
@@ -130,15 +135,20 @@
   text-align: start;
   height: 300px;
   width: 800px;
+  color: white;
 }
 #email{
    background: transparent;
+   color: white;
   
 }
 #name{
    background: transparent;
-   opacity: 0.4;
+   color: white;
+   
 }
+
+
 .social img{
   height: 40px;
  
@@ -165,6 +175,12 @@ button{
   height: 50px;
   width: 200px;
   margin-left: 20rem;
+
+}
+input::placeholder {
+  color: white;
+
+  font-weight: bold;
 
 }
 .titleimage{
