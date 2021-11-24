@@ -212,7 +212,9 @@ margin-top: 1rem;
 @media (max-width:768px){
   .serve{
       display: flex;
+      align-items: center;
       flex-direction: column;
       justify-content: center;
-      align-items: center;
+     
   }
+}
