@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
 .landpage{
   background-image: url("./images/landing1.jpg");
   background-repeat: none;
@@ -29,6 +31,17 @@
   margin-right: 1rem;
   margin-bottom: 1rem;
   padding-top: 3px;
+}
+
+.dot{
+ 
+  border-radius: 12px;
+  width: 26px;
+  border: 2px solid white;
+  text-align: center;
+  height: 43px;
+  margin-top: 100px;
+  margin-left: 33rem;
 }
  .small{
    height: 10px;
@@ -190,3 +203,7 @@ input::placeholder {
   text-align: center;
 }
 
+.socialtags p{
+text-align: center;
+margin-top: 1rem;
+}
