@@ -151,13 +151,14 @@
 
 .social img{
   height: 40px;
-  justify-content: center;
+  /* justify-content: center; */
   /* justify-content: space-around; */
 }
 .social{
-  padding-top: 2rem;
-  display: flex;
-  }
+margin-top: 1rem;
+margin-left: 8rem;
+
+}
 .img-1, .img-2, .img-3:hover{
   cursor: pointer;
   box-shadow: black;
