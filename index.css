@@ -151,16 +151,13 @@
 
 .social img{
   height: 40px;
- 
   justify-content: center;
-  justify-content: space-around;
+  /* justify-content: space-around; */
 }
 .social{
   padding-top: 2rem;
   display: flex;
- 
- 
-}
+  }
 .img-1, .img-2, .img-3:hover{
   cursor: pointer;
   box-shadow: black;
@@ -179,9 +176,9 @@ button{
 }
 input::placeholder {
   color: white;
-
   font-weight: bold;
-
+  visibility: visible;
+  opacity: 4;
 }
 .titleimage{
   display: none;
